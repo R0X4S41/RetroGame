@@ -1,4 +1,5 @@
 <?php 
+    require_once('../HTML/header.php');
     require_once 'config.php'; // On inclu la connexion à la bdd
 
     // Si les variables existent et qu'elles ne sont pas vides

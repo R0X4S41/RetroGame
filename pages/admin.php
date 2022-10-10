@@ -54,7 +54,7 @@
                     }
                 }
                 ?>
-            
+            <a href="../articles/add.php"  class="btn btn-primary btn-block" style="margin:15px 0px">New articles</a>
             <form action="valid-grade.php" method="post">
                 <h2 class="text-center">Nouveau Seller</h2>
                 <h5 class="text-left">Choix de la personne</h2>  
@@ -80,7 +80,6 @@
                 </div>   
             </form>
         </div>
-        <a href="../articles/add.php"  class="res">New articles</a>
     </div>
         <style>
             .contenaire{

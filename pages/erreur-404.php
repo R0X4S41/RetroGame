@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/CSS/404.css" type="text/css" media="screen"/>
+    <title>Erreur 404</title>
 </head>
 <body>
     <section class="notFound">

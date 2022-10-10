@@ -22,19 +22,8 @@
             <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-            <!-- Slick -->
-		    <link type="text/css" rel="stylesheet" href="CSS/articles/slick.css"/>
-		    <link type="text/css" rel="stylesheet" href="CSS/articles/slick-theme.css"/>
-
-		    <!-- nouislider -->
-		    <link type="text/css" rel="stylesheet" href="CSS/articles/nouislider.min.css"/>
-
-		    <!-- Font Awesome Icon -->
-		    <link rel="stylesheet" href="CSS/articles/font-awesome.min.css">
-
-		    <!-- Custom stlylesheet -->
+		
 		    <link type="text/css" rel="stylesheet" href="/CSS/articles/style.css"/>
-
             <link rel="stylesheet" href="/CSS/styles.css" type="text/css" media="screen"/>
             <link rel="stylesheet" href="/CSS/articles.css" type="text/css" media="screen"/>
             <script src="../JS/articles.js" ></script>
@@ -69,8 +58,13 @@
                                 <a href="../pages/admin.php" class="res">Admin</a>
                     <?php
                             }
+                            if($data['grade'] == 'SELLER'){
+                    ?>
+                                <a href="../articles/add.php" class="res">Ajouts</a>
+                    <?php
+                            }
                         }
                     ?>
                     
                 </div>
-        
+            
